@@ -1,0 +1,76 @@
+@import url(reset.css);
+
+* {
+	color: darkgray;
+}
+
+li {
+	color: darkcyan;
+}
+
+.title {
+	color: black;
+}
+
+h4 {
+	color: goldenrod;
+}
+
+#chernihiv-title {
+	color: darkred;
+}
+
+p.text {
+	color: darkblue;
+}
+
+.text + p {
+	color: burlywood;
+}
+
+.footer-title.subtitle {
+	color: yellowgreen;
+}
+
+.kyiv-text,
+.lviv-text {
+	color: darkgreen;
+}
+
+[class*="lviv"] {
+	color: brown;
+}
+
+.odesa-block p {
+	color: darkgoldenrod;
+}
+
+.kharkiv-block .kharkiv-text {
+	color: darkorange;
+}
+
+.chernivtsi-block * {
+	color: black;
+}
+
+.dnipro-block p {
+	color: gray;
+}
+
+.ivanofrankivsk-block > p {
+	color: aquamarine;
+}
+
+.kamianets-block * {
+	color: gold;
+}
+
+.uzhgorod-block > p {
+	color: aqua;
+}
+
+.footer-title ~ p {
+	color: blue;
+}
+
+
