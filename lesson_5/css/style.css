@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url(fonts.css);
+
+@import url(reset.css);
+
+body {
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 16px;
+	color: #2b2929;
+}
+
+/* Ecommerce Minimal */
+
+.instagram-section {
+	font-family: "Roboto", sans-serif;
+	background-color: rgba(30, 40, 50, 0.05);
+	width: 1920px;
+	min-height: 754px;
+	padding: 100px 300px 335px;
+}
+.instagram-block {
+	width: 1320px;
+	min-height: 319px;
+}
+.instagram-block h2 {
+	color: #000;
+	font-size: 50px;
+	font-weight: 500;
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.items {
+	font-size: 0;
+}
+
+.item {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	overflow: auto;
+	margin-right: 20px;
+}
+
+/* KROVATO BLOCK  */
+
+.container {
+	width: 1920px;
+	min-height: auto;
+	background-color: #f8f8f8;
+}
+
+.choise-section {
+	max-width: 1070px;
+	margin: 0 425px 40px;
+}
+
+.choise-furniture {
+	margin-bottom: 40px;
+}
+
+.choise-furniture h2 {
+	font-size: 40px;
+	font-weight: 600;
+	text-align: left;
+	line-height: 1.2;
+	letter-spacing: 0;
+	margin-bottom: 40px;
+}
+
+.choise-furniture-img {
+	margin-bottom: 40px;
+}
+
+p {
+	font-weight: 400;
+	text-align: left;
+	line-height: 1.875;
+	letter-spacing: 0;
+}
+.choise-furniture > p {
+	margin-bottom: 20px;
+}
+
+.choise-sofas p {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.40;
+	margin-bottom: 30px;
+}
+
+ul {
+	margin-bottom: 40px;
+}
+
+li {
+	font-weight: 400;
+	text-align: left;
+	line-height: 1.875;
+	letter-spacing: 0;
+	margin-bottom: 20px;
+}
+
+.about-section {
+	width: 1290px;
+	min-height: 572px;
+	margin: 0 315px 70px;
+}
+
+.about-section h2 {
+	font-size: 40px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.2;
+	letter-spacing: 0;
+	margin-bottom: 40px;
+}
+
+.about-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+	min-height: 484px;
+	margin-right: 10px;
+}
+
+.about-item h3 {
+	font-size: 26px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.30;
+	letter-spacing: 0;
+	margin-bottom: 20px; 
+}
+
+.about-item img {
+	margin: 0 65px 20px;
+}
+
+.about-item p {
+	text-align: center;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.875;
+	letter-spacing: 0;
+}
