@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700');
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap");
+@import url(fonts.css);
+
+@import url(reset.css);
+
+body {
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 16px;
+	color: #2b2929;
+}
+
+/* KROVATO BLOCK  */
+
+.container {
+	max-width: 1920px;
+	background-color: #f8f8f8;
+}
+
+.choise-section {
+	max-width: 1070px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.choise-furniture {
+	margin-bottom: 40px;
+}
+
+.choise-furniture h2 {
+	font-size: 40px;
+	font-weight: 600;
+	text-align: left;
+	line-height: 1.2;
+	letter-spacing: 0;
+	margin-bottom: 40px;
+}
+
+.choise-furniture-img {
+	border-radius: 8px;
+	margin-bottom: 40px;
+}
+
+p {
+	font-weight: 400;
+	text-align: left;
+	line-height: 1.875;
+	letter-spacing: 0;
+}
+.choise-furniture > p {
+	margin-bottom: 20px;
+}
+
+.choise-sofas p {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.40;
+	margin-bottom: 30px;
+}
+
+ul {
+	margin-bottom: 40px;
+}
+
+li {
+	background: url("../img/chekmark.svg") no-repeat 0 7px;
+	font-weight: 400;
+	text-align: left;
+	line-height: 1.875;
+	letter-spacing: 0;
+	padding-left: 47px;
+	margin-bottom: 20px;
+}
+
+/* EduPlay */
+
+.explore-block {
+	font-family: 'Quicksand', sans-serif;
+	color: #fff;
+	max-width: 1440px;
+	min-height: auto;
+	margin: 0 auto;
+	background: url('../img/kid_bg_img.png') no-repeat 850px 0 / 500px, no-repeat 850px 0, url('../img/aircraft_icon.svg') no-repeat 850px 250px, url('../img/books_icon.svg') no-repeat 900px 100px, url('../img/ellipse_bg_img.png') no-repeat 850px 50px, url('../img/explore_bg_img.jpg') no-repeat 0 0 / cover;
+}
+
+.explore-text {
+	padding: 121px 760px 121px 80px;
+}
+
+.explore-text h3 {
+	margin-bottom: 24px;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: left;
+	line-height: 1.2;
+	letter-spacing: 0;
+}
+
+.explore-text p {
+	font-size: 20px;
+	font-weight: 500;
+	text-align: left;
+	line-height: 1.6;
+	margin-bottom: 24px;
+
+}
+
+.link {
+	color: #0d1216;
+	background: url('../img/button_icon.png') no-repeat 20px 15px / 15px, #fff;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: left;
+	line-height: 1.5625;
+	padding: 12px 20px 12px 40px;
+	border-radius: 8px;
+}
+
+/* EcommerceMinimal */
+
+.collections-container {
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+	max-width: 1920px;
+	background: url('../img/branch_bg_img.png') no-repeat 0 75%, url('../img/leaves_bg_img.png') no-repeat 100% 40%, rgba(31, 41, 51, 0.05);
+}
+
+.collections-block {
+	max-width: 1226px;
+	min-height: auto;
+	margin: 81px auto 60px;
+	font-size: 0;
+}
+
+.collections-text {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 98px;
+}
+
+.collections-text h2 {
+	font-size: 74px;
+	font-weight: 300;
+	text-align: left;
+	letter-spacing: 0;
+	margin-bottom: 52px;
+}
+
+.collections-text p {
+	font-size: 30px;
+	font-weight: 400;
+	text-align: left;
+	text-transform: capitalize;
+	line-height: 1.83333333;
+	margin-bottom: 66px;
+}
+
+.collections-img {
+	display: inline-block;
+	max-width: 424px;
+	width: 100%;
+	height: 542px;
+	vertical-align: middle;
+	border: 2px solid rgba(0, 0, 0, 0.25);
+	border-radius: 160px 0;
+}
+
+.collections-img img {
+	max-width: 424px;
+	height: 542px;
+	width: 100%;
+	border-radius: 160px 0;
+	padding-bottom: 20px;
+	margin-left: -18px;
+}
+
+.shop-link {
+	font-size: 29px;
+	font-weight: 400;
+	text-align: left;
+	text-transform: capitalize;
+	color: #fff;
+	background: url('../img/shop_icon.svg') no-repeat 26px 15px, #1e2832;
+	padding: 19px 26px 19px 64px;
+}
