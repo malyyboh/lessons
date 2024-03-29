@@ -1,0 +1,351 @@
+
+@import url("https://fonts.googleapis.com/css?family=Orbitron:500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Exo:regular,700&display=swap");
+@import url(fonts.css);
+
+@import url(reset.css);
+
+body {
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 16px;
+	color: #2b2929;
+}
+
+/* GAME */
+
+.container-block {
+	max-width: 1080px;
+	min-height: 1000px;
+	font-size: 0;
+	margin: 0 auto 50px;
+
+}
+
+.block {
+	display: inline-block;
+	width: 50px;
+	height: 80px;
+	margin-left: 20px;
+	margin-top: 20px;
+	background-color: aqua;
+}
+
+.block-1 {
+	visibility: hidden;
+	width: 800px;
+	height: 40px;
+	margin-top: 40px;
+	background-color: aqua;
+}
+
+.block-2 {
+	display: inline-block;
+	visibility: hidden;
+	width: 50px;
+	height: 80px;
+	margin-left: 750px;
+	background-color: aqua;
+}
+
+.block-2__1 {
+	display: inline-block;
+	visibility: hidden;
+	width: 50px;
+	height: 200px;
+	background-color: aqua;
+}
+
+.block-2__1-1 {
+	display: inline-block;
+	visibility: hidden;
+	width: 50px;
+	height: 100px;
+	margin-top: 100px;
+	background-color: aqua;
+}
+
+.block-2__1-1-1 {
+	display: block;
+	visibility: hidden;
+	width: 800px;
+	height: 40px;
+	margin-left: -750px;
+	margin-top: 60px;
+	background-color: aqua;
+}
+
+.block-2__1-1-2 {
+	display: block;
+	width: 15px;
+	height: 20px;
+	margin-left: -750px;
+	visibility: hidden;
+	background-color: aqua;
+}
+
+.block-2__1-1-2-1 {
+	display: inline-block;
+	visibility: hidden;
+	width: 15px;
+	height: 200px;
+	background-color: aqua;
+}
+
+.block-2__1-1-2-2 {
+	display: block;
+	visibility: hidden;
+	width: 15px;
+	height: 20px;
+	margin-bottom: 30px;
+	background-color: red;
+}
+
+.block-2__1-1-2-2-1 {
+	text-align: center;
+	visibility: hidden;
+	height: 500px;
+	width: 1080px;
+}
+
+.block:hover .block-1 {
+	visibility: visible;
+}
+
+.block:hover .block-2 {
+	visibility: visible;
+}
+
+.block-2:hover .block-2__1 {
+	visibility: visible;
+}
+
+.block-2__1:hover .block-2__1-1 {
+	visibility: visible;
+}
+
+.block-2__1-1:hover .block-2__1-1-1 {
+	visibility: visible;
+}
+
+.block-2__1-1:hover .block-2__1-1-2 {
+	visibility: visible;
+}
+
+.block-2__1-1-2:hover .block-2__1-1-2-1 {
+	visibility: visible;
+}
+
+.block-2__1-1-2:hover .block-2__1-1-2-2 {
+	visibility: visible;
+}
+
+.block-2__1-1-2-2:hover .block-2__1-1-2-2-1 {
+	visibility: visible;
+	background: url('../img/freelancer.jpg') 0 0 / cover no-repeat fixed, red;
+}
+
+
+/* KROVATO BLOCK  */
+
+.container {
+	max-width: 1920px;
+	background-color: #f8f8f8;
+}
+
+.choise-section {
+	max-width: 1070px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.choise-furniture {
+	margin-bottom: 40px;
+}
+
+.choise-furniture h2 {
+	font-size: 40px;
+	font-weight: 600;
+	text-align: left;
+	line-height: 1.2;
+	letter-spacing: 0;
+	margin-bottom: 40px;
+}
+
+.choise-furniture-img {
+	border-radius: 8px;
+	margin-bottom: 40px;
+}
+
+p {
+	font-weight: 400;
+	text-align: left;
+	line-height: 1.875;
+	letter-spacing: 0;
+}
+.choise-furniture > p {
+	margin-bottom: 20px;
+}
+
+.choise-sofas > p {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.40;
+	margin-bottom: 30px;
+}
+
+.choise-sofas-items {
+	margin-bottom: 40px;
+}
+
+.choise-sofas-item p{
+	display: inline-block;
+	vertical-align: top;
+	max-width: 90%;
+	min-height: 32px;
+	font-weight: 400;
+	text-align: left;
+	line-height: 1.875;
+	letter-spacing: 0;
+}
+
+.choise-sofas-item:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.choise-sofas-item::before {
+	content: "";
+	background: url('../img/chekmark.svg') no-repeat 0 0/ 100%;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	margin-right: 15px;
+	margin-top: 5px;
+}
+
+
+/* Portfolio */
+
+.about-container {
+	font-family: "Exo", sans-serif;
+	background: linear-gradient(180deg, rgba(0,0,0,0.8968181022408963) 0%, rgba(0,0,0,0.8968181022408963) 100%), url('../img/about_img.jpg') no-repeat 0 0 / cover;
+	color: #fff;
+	min-height: 555px; /* задав, щоб останньому блоку можна було задати margin-botoom */
+}
+
+.about-text {
+	max-width: 992px;
+	margin: 0 auto;
+	vertical-align: middle;
+	padding-top: 120px;
+	margin-bottom: 60px;
+}
+
+.about-text p{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 2.2; /* 40/18 */
+	letter-spacing: -1px;
+	text-align: center;
+}
+.about-title {	
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 1.16; /* 70/60 */
+	text-align: center;
+	letter-spacing: 0;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.about-title::after {
+	content: "";
+	max-width: 401px;
+	margin: 0 auto;
+	display: block;
+	height: 1px;
+	background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(66,255,0,1) 48%, rgba(36,0,255,1) 100%);
+}
+
+.about-items {
+	max-width: 1150px;
+	margin: 0 auto 120px;
+
+}
+
+.about-item {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	text-align: left;
+	line-height: 1.25; /* 25/20 */
+	letter-spacing: 0;
+	display: inline-block;
+}
+
+.about-item:not(:last-child) {
+	margin-right: 60px;
+}
+
+.about-item::after {
+	content: "";
+	width: 10px;
+	height: 10px;
+	background: url('../img/about_icon.svg') no-repeat 0 0;
+	margin-left: 60px;
+}
+
+footer {
+	font-family: "Exo", sans-serif;
+	background-color: #000000;
+	color: #fff;
+}
+
+.footer {
+	max-width: 959px;
+	min-height: 275px;
+	margin: 0 auto;
+}
+
+.contacts {
+	padding-top: 255px;
+}
+
+.contacts-item {
+	font-size: 20px;
+	font-weight: 400;
+	text-align: left;
+	line-height: 1;
+	letter-spacing: -1px;
+	display: inline-block;
+}
+
+.contacts-item:not(:last-child) {
+	margin-right: 80px;
+}
+
+.contacts-item:first-child::before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	background: url('../img/call_icon.svg') no-repeat 0 0/ 100%;
+}
+
+.location::before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+	background: url('../img/location_icon.svg') no-repeat 0 0;
+}
+
+.contacts-item:nth-child(3):before {
+	content: "";
+	width: 20px;
+	height: 15px;
+	display: inline-block;
+	margin-right: 20px;
+	background: url('../img/email_icon.svg') no-repeat 0 0;
+}
+
