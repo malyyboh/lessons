@@ -88,8 +88,3 @@ span:hover {
 	vertical-align: middle;
 }
 
-.vector-icon:hover::before {
-	border-radius: 50%;
-	outline: 2px solid rgb(205, 134, 2);
-}
-
