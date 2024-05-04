@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson 14</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+			</header>
+			<main class="page">
+				<div class="container">
+					<h1>Оформлення замовлення</h1>
+					<div class="order-container">
+						<form class="order-info" action="#">
+							<h3 class="order-info__sub-title sub-title">Інформація про покупця</h3>
+							<div class="order-info__inputs">
+								<input class="order-info__surname" type="text" placeholder="Прізвище"
+									tabindex="1" required>
+								<input class="order-info__tel" type="tel"
+									placeholder="Контактний телефон" tabindex="4" required>
+								<input class="order-info__name" type="text" placeholder="Ім’я"
+									tabindex="2" required>
+								<input class="order-info__mail" type="email" placeholder="E-mail"
+									tabindex="5" required>
+								<input class="order-info__father-name" placeholder="По батькові"
+									type="text" tabindex="3" required>
+							</div>
+
+							<label for="order-other-person" class="order-info__checkbox">
+								<input id="order-other-person" class="order-info__other-person"
+									type="checkbox">
+								<span class="order-info__text-checkbox">Отримуватиме замовлення інша
+									людина</span>
+							</label>
+						</form>
+
+						<form class="order-delivery" action="#">
+							<h3 class="order-delivery__sub-title sub-title">Вибір способу
+								доставки</h3>
+							<div class="order-delivery__check-block">
+								<label class="order-delivery__pickup">
+									<input class="order-delivery__radio-pickup"
+										type="radio" name="order-delivery" value="form[]">
+									<span class="order-delivery__text-pickup">Самовивіз із магазину<br>
+										Бесплатно</span>
+								</label>
+								<label class="order-delivery__new-post">
+									<input class="order-delivery__radio-new-post" type="radio"
+										name="order-delivery" value="form[]">
+									<span class="order-delivery__text-new-post">Доставка Нова Пошта<br>
+										≈ від 500 грн</span>
+								</label>
+								<label class="order-delivery__curier">
+									<input class="order-delivery__radio-curier"
+										type="radio" name="order-delivery" value="form[]">
+									<span class="order-delivery__text-curier">Доставка кур'єром<br>
+										≈ від 200 грн</span>
+								</label>
+							</div>
+							<div class="address">
+								<div class="address__contacts">
+									<div class="address__info">
+										<p class="address__time">Графік роботи: щодня з 9:00 до 18:00
+										</p>
+										<p class="address__office">
+											м. Київ, пров. Ізяславський 52, пов. 2
+										</p>
+									</div>
+								</div>
+								<div class="address__map">
+									<a class="address__link" href="#"><span>На мапі</span></a>
+								</div>
+							</div>
+						</form>
+
+						<form class="order-pay" action="#">
+							<h3 class="order-pay__sub-title sub-title">Вибір способу оплати</h3>
+							<div class="order-pay__radio-block">
+								<label class="order-pay__cash">
+									<input class="order-pay__radio-cash"
+										type="radio" name="order-pay" value="form[]">
+									<span class="order-pay__text-cash">Готівкою при отриманні
+										(Післясплата)</span>
+								</label>
+								<label class="order-pay__card">
+									<input class="order-pay__radio-card"
+										type="radio" name="order-pay" value="form[]" checked>
+									<span class="order-pay__text-card">Оплата карткою на сайті</span>
+								</label>
+								<label class="order-pay__privat">
+									<input class="order-pay__radio-privat"
+										type="radio" name="order-pay" value="form[]">
+									<span class="order-pay__text-privat">Privat Pay</span>
+								</label>
+								<label class="order-pay__credit">
+									<input class="order-pay__radio-credit"
+										type="radio" name="order-pay" value="form[]">
+									<span class="order-pay__text-credit">Кредит від Krovato</span>
+								</label>
+								<label class="order-pay__pay-parts">
+									<input class="order-pay__radio-pay-parts"
+										type="radio" name="order-pay" value="form[]">
+									<span class="order-pay__text-pay-parts">Оплата частинами
+										ПриватБанк</span>
+								</label>
+								<label class="order-pay__pay-parts-mono">
+									<input class="order-pay__radio-pay-parts-mono"
+										type="radio" name="order-pay" value="form[]">
+									<span class="order-pay__text-pay-parts-mono">Оплата частинами
+										МоноБанк</span>
+								</label>
+							</div>
+						</form>
+
+						<form class="order-comments" action="#">
+							<h3 class="order-comments__sub-title sub-title">Коментар до
+								замовлення</h3>
+							<div class="order-comments__text-area">
+								<textarea name="order-comments" placeholder="Ваш коментар"></textarea>
+							</div>
+							<div class="order-comments__button">
+								<button type="submit">ОФОРМИТИ ЗАМОВЛЕННЯ</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</main>
+			<footer>
+			</footer>
+
+		</div>
+	</body>
+</html>
