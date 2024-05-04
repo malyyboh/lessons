@@ -476,7 +476,7 @@ h1 {
 	background-color: #ffbc57;
 	font-size: 19px;
 	text-align: center;
-	font-weight: 400px;
+	font-weight: 400;
 	line-height: 1.26; /* 24/19 */
 	border-radius: 8px;
 	transition: background-color 0.3s;
